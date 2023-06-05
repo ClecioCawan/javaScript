@@ -1,0 +1,26 @@
+<!--Formatando Strings-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatando Strings</title>
+    <style>
+        h1 {
+            font: normal 20pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatando Strings</h1>
+    <hr>
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome:')
+        document.write(`<h1> Seu nome é <strong>${nome}</strong> e contém ${nome.length} letras. </h1>` )// podemos escrever tags html dentro de um script.
+        document.write(`O seu nome em Maiúsculas é ${nome.toLocaleUpperCase()}<br>`)
+        document.write(`O seu nome em minúsculas é ${nome.toLowerCase()}.`)
+    </script>
+</body>
+</html>}
